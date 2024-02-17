@@ -14,7 +14,6 @@ To set up the project and install dependencies, run:
 
 ```bash
 npm install
-
 Usage
 To use the web scraping function, import the scrapeProductDetails function from code.ts into your TypeScript or JavaScript file and call it with a valid URL.
 
@@ -28,7 +27,6 @@ scrapeProductDetails('your-product-url').then(data => {
 }).catch(error => {
   console.error('Scraping failed', error);
 });
-
 Future Steps
 To complete and enhance the functionality of this code, the following steps are suggested:
 
@@ -42,9 +40,3 @@ If you need to integrate this function into the frontend or backend of your code
 
 For frontend integration, ensure the function is called after validating the URL on the client side.
 For backend integration, the function can be wrapped in an API endpoint to receive URLs and return the scraped data.
-Please refer to the project's documentation or contact the repository maintainers for further assistance.
-
-css
-Copy code
-
-Este `README.md` provee una descripción general del proyecto, cómo configurarlo y usarlo, y sugerencias para los próximos pasos y la integración con otras partes del proyecto. Puedes ajustar el path en el ejemplo de uso y cualquier otro detalle específico según las necesidades de tu proyecto.
